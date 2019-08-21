@@ -1,0 +1,45 @@
+IDEs are simply programs to write programs. They are generally editing environments with tools
+to help programmers write code quickly and efficiently. As an example, we can create PHP-driven
+web applications using a combination of Eclipse and PHPEclipse. Core features typically include:
+
+• Code completion or code insight: The ability of an IDE to know a language’s
+keywords and function names is crucial. The IDE may use this knowledge to do such
+things as highlight typographic errors, suggest a list of available functions based on the
+appropriate situation, or offer a function’s definition from the official documentation.
+
+• Resource management: When creating applications, languages often rely on
+certain resources, like library or header files, to be at specific locations. IDEs
+should be able to manage these resources. An IDE should be aware of any required
+resources so that errors can be spotted at the development stage and not later, in
+the compile or build stage.
+
+• Debugging tools: In an IDE, you should be able to thoroughly test your application
+before release. The IDE may be able to give variable values at certain points, connect
+to different data repositories, or accept different run-time parameters.
+
+• Compile and build: For languages that require a compile or build stage, IDEs
+translate code from high-level languages to the object code of the targeted platform.
+Requirements for these features vary substantially from language to language. Thus, traditionally,
+an IDE specializes in one language or a set of similar languages. Some famous IDEs and their
+languages include: JBuilder for Java; Metrowerks CodeWarrior suite for Java, C, and C++; and
+Microsoft’s Visual Studio for its Visual Basic and C# family of languages.
+
+Advantages of Using an IDE
+
+Using an IDE will save you a lot of effort in writing a program. Some advantages include:
+
+1. Less time and effort: The entire purpose of an IDE is to make developing faster and
+easier. Its tools and features are supposed to help you organize resources, prevent
+mistakes, and provide shortcuts.
+
+2. Enforce project or company standards: Simply by working in the same
+development environment, a group of programmers will adhere to a standard way of
+doing things. Standards can be further enforced if the IDE offers predefined
+templates, or if code libraries are shared between different team members/teams
+working on the same project.
+
+3. Project management: This can be twofold. First, many IDEs have documentation
+tools that either automate the entry of developer comments, or may actually force
+developers to write comments in different areas. Second, simply by having a visual
+presentation of resources, it should be a lot easier to know how an application is laid
+out as opposed to traversing the file system for arcane files in the file system
