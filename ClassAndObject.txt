@@ -3,9 +3,10 @@ Classes and Objects are basic concepts of Object Oriented Programming which revo
 Class
 
 A class is a user defined blueprint or prototype from which objects are created.  It represents the set of properties or methods that are common to all objects of one type. In general, class declarations can include these components, in order:
-
-Modifiers : A class can be public or has default access (Refer this for details).
-Class name: The name should begin with a initial letter (capitalized by convention).
+Package: Suggested to be in certain package, based on functionality of business requirement (as a convention).
+imports: Could required host of imports or functionalities imported through whole package of classes, classes or static imports.
+Modifiers : A class can be public or has default access .
+Class name: The name should begin with a initial letter (as a convention).
 Superclass(if any): The name of the class’s parent (superclass), if any, preceded by the keyword extends. A class can only extend (subclass) one parent.
 Interfaces(if any): A comma-separated list of interfaces implemented by the class, if any, preceded by the keyword implements. A class can implement more than one interface.
 Body: The class body surrounded by braces, { }.
@@ -21,9 +22,10 @@ It is a basic unit of Object Oriented Programming and represents the real life e
 State : It is represented by attributes of an object. It also reflects the properties of an object.
 Behavior : It is represented by methods of an object. It also reflects the response of an object with other objects.
 Identity : It gives a unique name to an object and enables one object to interact with other objects.
+Visibility: Extent of visibility of states and behaviors.
 Example of an object : dog
 
-Objects correspond to things found in the real world. For example, a graphics program may have objects such as “circle”, “square”, “menu”. An online shopping system might have objects such as “shopping cart”, “customer”, and “product”.
+Objects correspond to things found in the real world. For example, a Animal program may have objects such as “Dog”, “Cat”, “Animal”. 
 
 Declaring Objects (Also called instantiating a class)
 
