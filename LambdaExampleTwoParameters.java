@@ -1,5 +1,5 @@
-/*Note that lambda expressions can only be used to implement functional interfaces. In the above example also, the lambda expression implements Consumer Functional Interface.
-
+/*Note that lambda expressions can only be used to implement functional interfaces. 
+In the above example also, the lambda expression implements Consumer Functional Interface.
 A Java program to demonstrate working of lambda expression with two arguments*/
 
 public class LambdaExampleTwoParameters 
